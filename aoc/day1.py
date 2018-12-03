@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 def part1(puzzle_input):
-    frequency_changes = map(int, puzzle_input.split())
+    frequency_changes = list(map(int, puzzle_input.split()))
     return sum(frequency_changes)
 
 def part2(puzzle_input):
-    frequency_changes = map(int, puzzle_input.split())
+    frequency_changes = list(map(int, puzzle_input.split()))
 
     current_frequency_result = 0
     frequency_results = set([current_frequency_result])
