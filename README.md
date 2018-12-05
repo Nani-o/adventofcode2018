@@ -8,7 +8,7 @@ This repo contains my solution for the [Advent of code 2018](https://adventofcod
 Usage
 -----
 
-I use the adventofcode.py as a launcher to run the solutions from a file per day with a function per part, the inputs are in a folder named for each day, it's a less sophisticated of the version I saw on this [repo](https://github.com/LinusCDE/AdventOfCode2018).
+I run aoc.py as a package, which act as a launcher to run the solutions from a file per day with a function per part, the inputs are in a folder named for each day, it's a less sophisticated version of what I saw on this [repo](https://github.com/LinusCDE/AdventOfCode2018).
 
 ```
 $ python -m aoc.aoc -h
